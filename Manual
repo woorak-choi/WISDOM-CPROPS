@@ -1,0 +1,5 @@
+There is a running code which is usually named "galaxy_name"_gmc.pro.
+
+With this running code, you need at least two files, galpar.txt and 3D data cube (fits file).
+
+There are a few parameters you need to test, hi_threshold, low_threshold, minpix, minarea, convextiy, etc.
