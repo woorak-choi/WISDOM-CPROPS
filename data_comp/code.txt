@@ -1,0 +1,58 @@
+CMZ_r = CMZ.iloc[:,6].values
+CMZ_m = CMZ.iloc[:,10] # Lco
+CMZ_vir = CMZ.iloc[:,11] # Mvt 
+CMZ_s = CMZ.iloc[:,7]
+CMZ_sf = 
+
+LMC_r = LMC.iloc[:,7].values
+LMC_m = LMC.iloc[:,13] # Virial Mass 
+LMC_s = LMC.iloc[:,9]
+LMC_sf = 
+
+M33_r = M33.iloc[:,5].values
+M33_m = M33.iloc[:,12].values
+M33_s = M33.iloc[:,8].values
+M33_sf = 
+
+M51_r = M51.iloc[:,5].values
+M51_m = M51.iloc[:,12].values
+M51_s = M51.iloc[:,8].values
+M51_sf = 
+
+MWdh_r = MWd_h.iloc[:,7].values # or 11
+MWdh_m = MWd_h.iloc[:,9].values # or 13
+MWdh_s = MWd_h.iloc[:,6].values # or 10
+MWdh_sf = 
+
+MWdm_r = MWd_m.iloc[:,7].values
+MWdm_m = MWd_m.iloc[:,12].values
+MWdm_s = MWd_m.iloc[:,8].values
+MWdm_sf = 
+
+MWdr_r = MWd_r.iloc[:,7].values
+MWdr_m = MWd_r.iloc[:,8].values
+MWdr_s = MWd_r.iloc[:,4].values
+MWdr_sf = 
+
+NGC4429_r = NGC4429.iloc[:,4].values
+NGC4429_m = NGC4429.iloc[:,12].values # 10^5
+NGC4429_s = NGC4429.iloc[:,6].values
+NGC4429_sf = 
+
+NGC4526_r = NGC4526.iloc[:,2].values
+NGC4526_m = NGC4526.iloc[:,8].values # 10^6
+NGC4526_s = NGC4526.iloc[:,4].values
+NGC4526_sf = 
+
+NGC6946_r = NGC6946.iloc[:,3].values
+NGC6946_m = NGC6946.iloc[:,6].values # 10^5, Virial Mass
+NGC6946_s = NGC6946.iloc[:,4].values
+NGC6946_sf = 
+
+PHANGS_r = PHANGS.iloc[:,5].values
+PHANGS_m = PHANGS.iloc[:,9].values
+PHANGS_s = PHANGS.iloc[:,7].values
+PHANGS_sf =  
+# 1~473: ngc0628 ; 474~ 748: ngc1637; 749~1558: ngc2903; 1559~ 2990: ngc3521; 2991~3384: ngc 3621; 3385~4432: ngc 3627; 4433~4480: ngc4826; 4481~4554: ngc 5068; 
+4555~5249: ngc5643; 5250~5759: ngc6300
+
